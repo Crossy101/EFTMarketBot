@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Classes\Old\**" />
+    <EmbeddedResource Remove="Classes\Old\**" />
+    <None Remove="Classes\Old\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EFTBot.Data\EFTBot.Data.csproj" />
+  </ItemGroup>
+
+</Project>

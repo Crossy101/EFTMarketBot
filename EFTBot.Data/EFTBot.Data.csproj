@@ -9,7 +9,7 @@
     <PackageReference Include="DotNetZip" Version="1.13.5" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="RestSharp" Version="106.10.1" />
     <PackageReference Include="System.Core" Version="3.5.21022.801" />
   </ItemGroup>
